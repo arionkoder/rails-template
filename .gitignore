@@ -40,3 +40,5 @@
 
 # Ignore macOS Finder config files
 .DS_Store
+
+.husky/
