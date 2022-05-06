@@ -31,5 +31,14 @@
 
 /public/assets
 
-# Ignore master key for decrypting credentials and more.
+# Ignore sensitive config files.
 /config/master.key
+/config/database.yml
+
+# Ignore code coverage files.
+/coverage
+
+# Ignore macOS Finder config files
+.DS_Store
+
+.husky/
